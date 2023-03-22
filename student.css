@@ -1,0 +1,21 @@
+h4{
+    color: brown;
+         /* background-color: bisque; */
+         font-size: 20px;
+         font-family: 'Ubuntu', sans-serif;
+         padding: 2px 12px;
+         border: 20px;
+           border-color: black;
+}
+form{
+    font-size: 18px;
+    /* background-color: beige; */
+    font-style: italic; 
+    padding: 15px;
+}
+body{
+    /* background-color: antiquewhite; */
+ }
+ div{
+    border: 12px black;
+ }
