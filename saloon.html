@@ -13,11 +13,12 @@
     /* CSS Reset */
     body {
         font-family: 'Baloo Bhai', cursive;
-        color: rgb(16, 15, 15);
+        color: rgb(204, 231, 162);
         margin: 0px;
         padding: 26px;
-       
-       
+        background: url('images/saloon.jpeg');
+       background-repeat: none;
+       background-size: 2000px 1500px;
     }
 
     .left {
@@ -29,23 +30,23 @@
     }
 
     .left img {
-        width: 136px;
+        width: 79px;
         filter: invert(100%);
     }
 
     .left div {
         line-height: 42px;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
-    border: 2px solid red;
-    width: 186px;
+    /* border: 2px solid red; */
+    width: 51px;
     }
 
     .mid {
-        display: block;
-        width: 36%;
-        margin: 29px auto;
-        /* border: 2px solid green; */
+       display: block;
+    width: 49%;
+    margin: 9px auto;
+     /* border: 2px solid green; */
     }
 
     .right {
@@ -53,7 +54,7 @@
         right: 34px;
         top: 43px;
         display: inline-block;
-        /* border: 2px solid yellow; */
+        /* border: 2px solid yellow;  */
     }
 
     .navbar {
@@ -72,10 +73,12 @@
 
     }
 
-    .navbar li a:hover,
+    .navbar li a:hover{
+        text-decoration: underline;
+    }
     .navbar li a.active {
         text-decoration:none;
-        color: rgb(22, 22, 22);
+        color: rgb(13, 14, 13);
 
     }
 
@@ -92,7 +95,8 @@
     }
 
     .btn:hover {
-        background-color: rgb(31, 30, 30);
+        background-color: rgb(241 255 203);
+        color:black ;
     }
 
     .container {
@@ -127,11 +131,11 @@
 </style>
 
 <body>
-    <img src="https://www.pexels.com/photo/white-and-brown-chairs-inside-a-salon-705255/" alt="" srcset="">
+    
     <header class="header">
         <!-- Left box for logo -->
         <div class="left">
-            <img src="img/gym.png" alt="">
+            <img src="images/logo.jpg" alt="">
             <div>Saloon</div>
         </div>
         <!-- Mid box for navbar -->
@@ -151,7 +155,7 @@
         </div>
     </header>
     <div class="container">
-        <h1>Welcom Have The Best Hair Cut In The City Now</h1>
+        <h1>Welcome Have The Best Hair Cut In The City Now</h1>
         <form action="noaction.php">
             <div class="form-group">
                 <input type="text" name="" placeholder="Enter your Name">
