@@ -1,0 +1,54 @@
+//- index.pug
+doctype html
+html
+  head
+    title Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+     ul
+       div#logo 
+         img#img(src="/static/images/logo.png")
+       li #[a(href="/")   Home]  
+       li #[a(href="/")  About us] 
+       li #[a(href="/") Services] 
+       li #[a(href="/") Contact us] 
+       li #[a(href="/") Class Info ] 
+    section#introsection  
+        div Welcome To Dance Academy 
+        div Eat Sleep Dance Repeat 
+    section#missionsection  
+        h3 Our mission
+        div.card
+          h4 Dance with perfection.
+          .card-box 
+            .card-img 
+              img(src="/static/images/1.png")
+          .card-content 
+            p Step Up Your Dance   
+        div.card
+          h4 Dance the way you like. 
+           .card-box 
+            .card-img 
+              img(src="/static/images/2.png")
+          .card-content 
+            p Ignite Your Dancing Flame   
+        div.card
+          h4 Expert teaching.
+           .card-box 
+            .card-img 
+              img(src="/static/images/3.png")
+          .card-content 
+            p Elevate Your Dance   
+    section#sectionforasponsers  
+        h3 Our Sponsers
+        #sponsers 
+          img(src="/static/images/logo1.png", alt="sponser image" , class="sponserimage") 
+          img(src="/static/images/logo2.png", alt="sponser image" , class="sponserimage") 
+          img(src="/static/images/logo3.png", alt="sponser image" , class="sponserimage") 
+          img(src="/static/images/logo4.png", alt="sponser image" , class="sponserimage") 
+    footer#footersection 
+         |copyright © 2023 DanceAcademy.com | All rights reserved
+    script
+      include ../static/script.js

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    height: 22px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 20px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 4px 121px;
+    margin: 2px 16px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content{
+    padding: 0 84px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+ #img{
+    height: 38px;
+} 
+#navbar{
+    background-color: rgb(69 66 66);
+    padding: 11px 1px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 8px;
+    color: white;
+}
+#navbar li a:hover{
+    color: #a57676;
+}
+#navbar li{
+    list-style: none;
+}
+#introsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    background-color: red;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+height: 300px;
+}
+#missionsection{
+    height: 300px;
+    background-color: rgb(69 66 66);
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 2px 17px;
+    height: 209px;
+    display: inline-block;
+}
+h4{
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 12px;
+}
+#sectionforasponsers{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 27px;
+    padding-top: 10px;
+}
+#sponsers{
+    margin: auto;
+    height: 200px;
+    max-width: 1000px;
+}
+.sponserimage{
+    height: 80%;
+    margin: 22px;
+}
+#footersection{
+    background-color: rgb(69 66 66);
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
