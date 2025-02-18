@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Indicator</title>
+    <link rel="stylesheet" href="Style.css" />
+    </head>
+    <body>
+    <div class="align">
+        <h1>Test Your Password</h1>
+        <label for="password">Enter a password:</label>
+        <input type="password" id="Password" /><br />
+        <br />
+        <button onclick="checkStrength()">Click here to check strength!!</button>
+        <p id="strength">
+        Password Strength: <span id="strengthIndicator"></span>
+        </p>
+    </div>
+    <script src="./Script.js"></script>
+    </body>
+</html>
